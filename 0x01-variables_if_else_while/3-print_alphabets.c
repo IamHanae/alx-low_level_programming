@@ -10,6 +10,7 @@ int main(void)
 	int i;
 	char s[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\n";
 
-	putchar(s[i]);
+	for (i = 0; i <= 53; i++)
+		putchar(s[i]);
 	return (0);
 }
