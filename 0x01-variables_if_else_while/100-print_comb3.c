@@ -10,7 +10,7 @@ int main(void)
 	int i;
 	int j = 0;
 
-	for (i = 1; i <= 89; i++)
+	for (i = 0; i <= 89; i++)
 	{
 		if ((i / 10) < (i % 10))
 		{
@@ -18,7 +18,7 @@ int main(void)
 			putchar((i % 10) + '0');
 			j++;
 
-			if (j <= 44)
+			if(j < (i - j)) 
 			{
 				putchar(',');
 				putchar(' ');
