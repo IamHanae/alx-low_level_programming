@@ -16,10 +16,10 @@ int main(void)
 		{
 			putchar((i / 10) + '0');
 			putchar((i % 10) + '0');
-			j = i;
+			j++;
 		}
 
-		if (j == i)
+		if (j < (i / 2))
 		{
 			putchar(',');
 			putchar(' ');
