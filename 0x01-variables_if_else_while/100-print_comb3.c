@@ -8,7 +8,6 @@
 int main(void)
 {
 	int i;
-	int j = 0;
 
 	for (i = 0; i <= 89; i++)
 	{
@@ -16,11 +15,11 @@ int main(void)
 		{
 			putchar((i / 10) + '0');
 			putchar((i % 10) + '0');
-			j++;
-		}
 
-		if (j <= ((i + j) / 2))
-		{
+
+			if (i == 89)
+				continue;
+
 			putchar(',');
 			putchar(' ');
 		}
