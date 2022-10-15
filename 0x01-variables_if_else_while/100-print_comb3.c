@@ -17,12 +17,12 @@ int main(void)
 			putchar((i / 10) + '0');
 			putchar((i % 10) + '0');
 			j = i;
+		}
 
-			if (j == i)
-			{
-				putchar(',');
-				putchar(' ');
-			}
+		if (j == i)
+		{
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
