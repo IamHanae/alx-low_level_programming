@@ -19,7 +19,7 @@ int main(void)
 			j++;
 		}
 
-		if (j < (i / 2))
+		if (j >= (i - j))
 		{
 			putchar(',');
 			putchar(' ');
