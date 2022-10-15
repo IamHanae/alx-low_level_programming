@@ -18,7 +18,7 @@ int main(void)
 			putchar((i % 10) + '0');
 			j++;
 
-			if(j < (i - j)) 
+			if (j <= (i - j))
 			{
 				putchar(',');
 				putchar(' ');
