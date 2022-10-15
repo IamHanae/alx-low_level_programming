@@ -3,13 +3,13 @@
 /**
  * main - Entry point into the program
  *
- * Return: 0 on success. Error otherwise
+ * Return: 0 on success
  */
 int main(void)
 {
 	int i;
 	int j = 0;
-	
+
 	for (i = 0; i <= 89; i++)
 	{
 		if ((i / 10) < (i % 10))
