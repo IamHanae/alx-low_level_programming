@@ -1,5 +1,5 @@
-#ifndef MAIN
-#define MAIN
+#ifndef MAIN_H_
+#define MAIN_H_
 
 void _putchar(void);
 
