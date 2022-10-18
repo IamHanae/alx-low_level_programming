@@ -8,13 +8,15 @@
 int _islower(int c)
 {
 	int i;
+	int res;
 	char s[26] = "abcdefghijklmnopqrstuvwxyz";
 
 	for (i = 0; i < 26; i++)
 	{
 		if (c == s[i])
-			return (1);
+			res = 1;
 		else
-			return (0);
+			res = 0;
 	}
+	return (res);
 }
