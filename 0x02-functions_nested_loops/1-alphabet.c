@@ -8,8 +8,8 @@
 void print_alphabet(void)
 {
 	int i;
-
 	char s[26] = "abcdefghijklmnopqrstuvwxyz";
+
 	for (i = 0; i < 26; i++)
 	{
 		_putchar(s[i]);
