@@ -10,7 +10,6 @@ int _islower(int c)
 {
 	int i;
 	int res;
-	char s[26] = "abcdefghijklmnopqrstuvwxyz";
 
 	for (i = 0; i < 26; i++)
 	{
