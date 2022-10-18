@@ -8,6 +8,6 @@
  */
 int main(void)
 {
-	system("echo -e '_putchar'");
+	system("echo'_putchar'");
 	return (0);
 }
