@@ -8,7 +8,6 @@
  */
 int _isalpha(int c)
 {
-	int i;
 	int res;
 
 	if(c >= 65 && c <= 122)
