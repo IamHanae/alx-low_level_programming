@@ -1,5 +1,5 @@
-#ifndef DEF_PROTO
-#define DEF_PROTO
+#ifndef MAIN
+#define MAIN
 
 void _putchar(void);
 
