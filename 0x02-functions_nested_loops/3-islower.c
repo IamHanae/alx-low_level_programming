@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * islower - Checks for lowercase characters
+ * _islower - Checks for lowercase characters
  *
  * Return: 1 is lowercase, 0 otherwise
  */
@@ -13,7 +13,7 @@ int _islower(int c)
 
 	for (i = 0; i < 26; i++)
 	{
-		if (c == s[i])
+		if (c == _putchar(s[i]))
 			res = 1;
 		else
 			res = 0;
