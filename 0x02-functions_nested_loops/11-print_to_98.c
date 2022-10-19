@@ -11,8 +11,6 @@ void print_to_98(int n)
 {
 	int i;
 
-	_putchar(n);
-
 	for (i = 0; i < 99; i++)
 	{
 		printf("%i", i);
