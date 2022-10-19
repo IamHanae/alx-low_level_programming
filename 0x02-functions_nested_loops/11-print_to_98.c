@@ -27,7 +27,7 @@ void print_to_98(int n)
 	{
 		for (i = n; i > 98; i--)
 		{
-			printf("%i, ", n);
+sh: 1: q: not found
 		}
 		printf("%i\n", n);
 	}
