@@ -23,7 +23,7 @@ void print_times_table(int n)
 			printf(", ");
 			printf("%i", i * j);
 		}
-		_putchar('\n');
+		printf("\n");
 	}
 
 }
