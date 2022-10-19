@@ -2,6 +2,7 @@
 
 /**
  * _abs - Compute the absolute value of an integer
+ * @n: Th number to be checked
  *
  * Return: Return the absolute value
  */
