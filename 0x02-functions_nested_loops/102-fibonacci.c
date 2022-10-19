@@ -8,8 +8,8 @@
 int main(void)
 {
 	int i;
-	int n1 = 0;
-	int n2 = 1;
+	int n1 = 1;
+	int n2 = 2;
 	int n3;
 
 	for (i = 0; i < 50; i++)
