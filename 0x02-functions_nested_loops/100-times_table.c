@@ -31,7 +31,7 @@ void print_times_table(int n)
 				printf("%i", i * j);
 			}
 			else
-			{				
+			{
 				printf(",   ");
 				printf("%i", i * j);
 			}
