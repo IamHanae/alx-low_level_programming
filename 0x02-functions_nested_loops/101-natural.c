@@ -17,5 +17,5 @@ int main(void)
 			sum += i;
 	}
 	printf("%i\n", sum);
-	Return (0);
+	return (0);
 }
