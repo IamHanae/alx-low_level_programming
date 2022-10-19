@@ -21,14 +21,14 @@ void print_to_98(int n)
 			_putchar(',');
 			_putchar(' ');
 		}
-		_putchar('\n');
+		printf("%i\n", 98);
 	}
 	else
 	{
-		for (i = n; i >= 98; i--)
+		for (i = n; i > 98; i--)
 		{
 			printf("%i, ", i);
 		}
-		printf("%i\n", i);
+		printf("%i\n", 98);
 	}
 }
