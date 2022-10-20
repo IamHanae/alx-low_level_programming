@@ -17,7 +17,7 @@ int main(void)
 	{
 		printf(", %lu", n2);
 
-		n2 += n1;
+		n2 = n2 + n1;
 		n1 = n2 - n1;
 	}
 
@@ -31,9 +31,9 @@ int main(void)
 		printf(", %lu", n2_1 + (n2_2 / 1000000000));
 		printf("%lu", n2_2 % 1000000000);
 
-		n2_1 += n1;
+		n2_1 = n2_1 + n1;
 		n1_1 = n2_1 - n1_1;
-		n2_2 += n1_2;
+		n2_2 = n2_2 + n1_2;
 		n1_2 = n2_2 - n1_2;
 	}
 	printf("\n");
