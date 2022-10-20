@@ -7,7 +7,6 @@
  */
 int main(void)
 {
-	int i;
 	unsigned long n1, n2, n3;
 	float total;
 
