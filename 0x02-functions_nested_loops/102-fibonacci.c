@@ -8,9 +8,9 @@
 int main(void)
 {
 	int i;
-	int n1 = 0;
-	int n2 = 1;
-	int n3;
+	unsigned long n1 = 0;
+	unsigned long n2 = 1;
+	unsigned long n3;
 
 	for (i = 0; i < 50; i++)
 	{
@@ -18,9 +18,9 @@ int main(void)
 			n3 = i;
 		else
 		{
-		n3 = n1 + n2;
-		n1 = n2;
-		n2 = n3;
+			n3 = n1 + n2;
+			n1 = n2;
+			n2 = n3;
 		}
 		printf("%d, ", n3);
 	}
