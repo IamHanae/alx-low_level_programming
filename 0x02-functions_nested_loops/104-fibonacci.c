@@ -15,7 +15,7 @@ int main(void)
 	for (i = 0; i < 92; i++)
 	{
 		sum = n1 + n2;
-		printf("%ld, ", sum);
+		printf("%lu, ", sum);
 
 		n1 = n2;
 		n2 = sum;
@@ -36,9 +36,10 @@ int main(void)
 			h2 %= 1000000000;
 		}
 
-		printf("%ld%ld", h1, h2);
+		printf("%lu%lu", h1, h2);
 		if (i != 98)
 			printf(", ");
+
 		n1_h1 = n2_h1;
 		n1_h2 = n2_h2;
 		n2_h1 = h1;
