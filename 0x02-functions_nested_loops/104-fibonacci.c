@@ -8,19 +8,42 @@
 int main(void)
 {
 	int i;
-	unsigned long int n1 = 1, n2 = 2, n3;
+	unsigned long int n1 = 1, n2 = 2, m1, m2, n11, n22;
+	int bool1, bool2 = 1;
 
-	for (i = 1; i <= 98; i++)
+	printf("%lu, %lu", n1, n2);
+
+	for (i = 0; i < 96; i++)
 	{
-		if (i == 98)
-			printf("%lu, ", n2);
+		if (bool1)
+		{
+			m1 = n1 + n2;
+			printf(", %lu", m1);
+			n1 = n2;
+			n2 = m1;
+		}
 		else
 		{
-			printf("%lu, ", n2);
+			if (bool2)
+			{
+				n11 = n1 % 1000000000;
+				n22 = n2 % 1000000000;
+				n1 = n1 / 1000000000;
+				n2 = n2 / 1000000000;
+				bool2 = 0;
+			}
+			m2 = (n11 + n22);
+			m1 = n1 + n2 + (m2 / 1000000000);
 
-			n3 = n2 + n1;
-			n2 = n3;
+			printf(", %lu", m1);
+			printf("%lu", m2 % 1000000000);
+			n1 = n2;
+			n11 = n22;
+			n2 = m1;
+			n22 = m2 % 1000000000;
 		}
+		if (((n1 + n2) < 0) && bool1 == 1)
+			bool1 = 0;
 	}
 	printf("\n");
 	return (0);
