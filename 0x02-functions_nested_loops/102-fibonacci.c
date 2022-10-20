@@ -22,7 +22,11 @@ int main(void)
 			n1 = n2;
 			n2 = n3;
 		}
-		printf("%ld, ", n3);
+		printf("%ld", n3);
+		if (i == 49)
+			printf("\n");
+		else
+			printf(", ");
 	}
 	return (0);
 }
