@@ -13,7 +13,6 @@ int main(void)
 	int bool2 = 1;
 
 	printf("%ld, %ld", n1, n2);
-
 	for (i = 0; i < 96; i++)
 	{
 		if (bool1)
@@ -35,7 +34,6 @@ int main(void)
 			}
 			m2 = (n11 + n22);
 			m1 = n1 + n2 + (m2 / 1000000000);
-
 			printf(", %ld", m1);
 			printf("%ld", m2 % 1000000000);
 			n1 = n2;
