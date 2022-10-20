@@ -41,7 +41,7 @@ int main(void)
 			n2 = m1;
 			n22 = (m2 % 1000000000);
 		}
-		if ((n1 + n2) < 0 && bool1 == 1)
+		if (((n1 + n2) < 0) && bool1 == 1)
 			bool1 = 0;
 	}
 	printf("\n");
