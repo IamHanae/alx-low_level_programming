@@ -14,5 +14,5 @@ int _isupper(int c)
 	else
 		res = 0;
 
-	return (r);
+	return (res);
 }
