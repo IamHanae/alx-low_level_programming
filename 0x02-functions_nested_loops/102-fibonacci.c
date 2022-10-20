@@ -14,15 +14,12 @@ int main(void)
 
 	for (i = 0; i < 50; i++)
 	{
-		if (i <= 1)
-			n3 = i;
-		else
-		{
-			n3 = n1 + n2;
-			n1 = n2;
-			n2 = n3;
-		}
+		n3 = n1 + n2;
 		printf("%ld", n3);
+
+		n1 = n2;
+		n2 = n3;
+
 		if (i == 49)
 			printf("\n");
 		else
