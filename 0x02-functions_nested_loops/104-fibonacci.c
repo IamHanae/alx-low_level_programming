@@ -13,7 +13,7 @@ int main(void)
 
 	printf("%lu", n1);
 
-	for (i = 1; i < 92; i++)
+	for (i = 0; i < 91; i++)
 	{
 		printf(", %lu", n2);
 
