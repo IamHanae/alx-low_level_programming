@@ -1,7 +1,7 @@
-#ifndef MAIN_H_
-#define MAIN_H_
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
 int _putchar(char c);
 int _isupper(int c);
 
-#endif /* MAIN_H_ */
+#endif /* _MAIN_H_ */
