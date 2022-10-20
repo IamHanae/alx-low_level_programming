@@ -8,7 +8,7 @@
 int main(void)
 {
 	int i;
-	unsigned long n1 = 1, n2 = 2, n3;
+	unsigned long n1 = 1, n2 = 2;
 	unsigned long n1_1, n1_2, n2_1, n2_2;
 
 	printf("%lu", n1);
@@ -29,7 +29,7 @@ int main(void)
 
 	for (i = 92; i < 99; i++)
 	{
-		printf(", %lu", n2_1 (n2_2 / 1000000000));
+		printf(", %lu", n2_1 + (n2_2 / 1000000000));
 		printf("%lu", n2 % 1000000000);
 
 		n2_1 += n1;
