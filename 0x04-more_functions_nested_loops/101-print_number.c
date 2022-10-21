@@ -7,7 +7,7 @@
  */
 void print_number(int n)
 {
-	unsigned int m, c;
+	unsigned int m, c, k;
 
 	if (n < 0)
 	{
@@ -19,9 +19,10 @@ void print_number(int n)
 		m = n;
 	}
 
+	k = m;
 	c = 1;
 
-	while (m > 9)
+	while (k > 9)
 	{
 		m /= 10;
 		c *= 10;
