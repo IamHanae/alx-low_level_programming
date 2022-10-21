@@ -3,13 +3,14 @@
 /**
  * print_square - Prints a square
  * followed by a new line
+ * @size: Size of the square
  * Return: Void
  */
 void print_square(int size)
 {
 	int i, j;
 
-	if(size > 0)
+	if (size > 0)
 	{
 		for (i = 0; i < size; i++)
 		{
