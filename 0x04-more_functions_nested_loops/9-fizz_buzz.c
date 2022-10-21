@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int i, j;
+	int i;
 
 	for (i = 1; i < 101; i++)
 	{
