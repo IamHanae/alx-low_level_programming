@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
@@ -22,6 +21,7 @@ int main(void)
 		else
 			printf("%i", i);
 	}
-	printf('\n');
+	printf("\n");
+
 	return (0);
 }
