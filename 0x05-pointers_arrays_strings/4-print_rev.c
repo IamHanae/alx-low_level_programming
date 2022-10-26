@@ -9,10 +9,12 @@ void print_rev(char *s)
 {
 	int i;
 
-	for (i = 1; s[i] != '\0'; i++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
 		i++;
 	}
+
+	i--;
 	while (i >= 0)
 	{
 		_putchar(s[i]);
