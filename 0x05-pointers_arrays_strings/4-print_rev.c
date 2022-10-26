@@ -9,7 +9,7 @@ void print_rev(char *s)
 {
 	int i = 0;
 
-	for (i >= 0)
+	while (i >= 0)
 	{
 		if (s[i] == '\n')
 			break;
