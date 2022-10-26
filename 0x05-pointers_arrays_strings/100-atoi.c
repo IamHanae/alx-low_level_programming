@@ -8,14 +8,16 @@
  */
 int _atoi(char *s)
 {
-	unsigned int count = 0, len = 0, i = 0, j = 0, n = 1, m;
+	unsigned int count = 0, len = 0, i = 0, j = 1, n = 1, m;
 
 	while (*(s + count) != '\0')
 	{
 		if (len > 0 && (*(s + count) < '0' || *(s + count) > '9'))
 			break;
+
 		if (*(s + count) == '-')
 			j *= -1;
+
 		if ((*(s + count) >= '0') && (*(s + count) <= '9'))
 		{
 			if (len > 0)
