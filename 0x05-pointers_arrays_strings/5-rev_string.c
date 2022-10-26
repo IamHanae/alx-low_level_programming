@@ -26,7 +26,7 @@ void rev_string(char *s)
 	j = 0;
 	while (s[j] != '\0')
 	{
-		_putchar(s[i]);
+		_putchar(s[j]);
 		j++;
 	}
 }
