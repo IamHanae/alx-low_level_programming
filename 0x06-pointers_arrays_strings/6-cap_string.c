@@ -5,7 +5,7 @@
  * @s: The string to capitalize
  * Return: A pointer to the changed string
  */
-char *cap_string(char s*)
+char *cap_string(char *s)
 {
 	int i = 0;
 
@@ -25,7 +25,7 @@ char *cap_string(char s*)
 			s[i - 1] == '(' ||
 			s[i - 1] == ')' ||
 			s[i - 1] == '{' ||
-			s[i - 1] == '}' |||
+			s[i - 1] == '}' ||
 			i == 0)
 			s[i] -= 32;
 		i++;
