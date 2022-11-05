@@ -12,7 +12,7 @@ int isDivisible(int n, int div)
 		return (0);
 	if (div == n / 2)
 		return (1);
-	return (isDivisble(n, div + 1));
+	return (isDivisible(n, div + 1));
 }
 
 /**
@@ -26,5 +26,5 @@ int is_prime_number(int n)
 		return (0);
 	if (n >= 2 && n <= 3)
 		return (1);
-	return (isDivisble(n, 2);
+	return (isDivisible(n, 2));
 }
