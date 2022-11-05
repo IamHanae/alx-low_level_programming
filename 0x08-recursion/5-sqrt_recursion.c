@@ -9,7 +9,7 @@
 int _sqrt(int n, int root)
 {
 	int next = (root + n / root) / 2;
-	
+
 	if (root * root <= n && (root + 1) * (root + 1) > n)
 		return (root);
 	else
