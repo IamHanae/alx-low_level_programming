@@ -13,7 +13,7 @@ int _sqrt(int n, int root)
 	if (root * root == n)
 		return (root);
 	if (root == n / 2)
-		return (-1)
+		return (-1);
 	else
 		return (_sqrt(n, next));
 }
