@@ -13,7 +13,7 @@ int _sqrt(int n, int root)
 	if (root * root <= n && (root + 1) * (root + 1) > n)
 		return (root);
 	else
-		return _sqrt(n, next);
+		return (_sqrt(n, next));
 }
 
 /**
