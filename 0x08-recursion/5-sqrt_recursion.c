@@ -8,10 +8,12 @@
  */
 int _sqrt(int n, int root)
 {
-	int next = (root + n / root) / 2;
+	int next = root + 1;
 
-	if (root * root <= n && (root + 1) * (root + 1) > n)
+	if (root * root == n)
 		return (root);
+	if (root == n / 2)
+		return (-1)
 	else
 		return (_sqrt(n, next));
 }
@@ -28,6 +30,5 @@ int _sqrt_recursion(int n)
 		return (-1);
 	else if (n == 1)
 		return (1);
-	return (_sqrt(n, 1));
+	return (_sqrt(n, root));
 }
-
