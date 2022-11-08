@@ -4,9 +4,8 @@
 /**
  * main - Prints the multiplication of two numbers.
  * @argc: The number of arguments.
- * @argv! An array of pointers to the arguments.
- * Return: If two arguments are provinded - 0.
- * 	   Otherwise 1.
+ * @argv: An array of pointers to the arguments.
+ * Return: If two arguments are provinded - 0. Otherwise 1.
  */
 int main(int argc, char *argv[])
 {
