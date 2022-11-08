@@ -7,7 +7,7 @@
  * @argv: An array of pointers to the arguments.
  * Return: If one number cotains symbols - 1. Oherwise - 0.
  */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int num1, num2, sum = 0;
 
