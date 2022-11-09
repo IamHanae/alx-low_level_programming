@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 #include <stdlib.h>
 
 /**
@@ -10,33 +11,33 @@
  */
 int **alloc_grid(int width, int height)
 {
-	int **twoDim;
+	int **arr;
 	int i, j;
 
 	if (width <= 0 || height <= 0)
 		return (NULL);
 
-	twoDim = malloc(sizeof(int) * height);
+	arr = malloc(sizeof(int) * height);
 
-	if (twoDim == NULL)
+	if (arr == NULL)
 	{
-		free(twoDim);
+		free(arr);
 		return (NULL);
 	}
 
 	for (i = 0; i < height; i++)
 	{
-		twoDim[i] = malloc(sizeof(int) * width);
+		arr[i] = malloc(sizeof(int) * width);
 
-		if (twoDim == NULL)
+		if (arr == NULL)
 		{
-			free(twoDim);
+			free(arr);
 			return (NULL);
 		}
 
 		for (j = 0; j < width; j++)
-			twoDim[i][j] = 0;
+			arr[i][j] = 0;
 	}
 
-	return (twoDim);
+	return (arr);
 }
