@@ -12,8 +12,7 @@
 int **alloc_grid(int width, int height)
 {
 	int **twoDim;
-	int height_i;
-	int width_i;
+	int height_i, width_i;
 
 	if (width <= 0 || height <= 0)
 		return (NULL);
