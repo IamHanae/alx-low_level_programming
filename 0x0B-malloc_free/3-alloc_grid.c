@@ -6,8 +6,7 @@
  * dimensional array of integers
  * @width: The width of the array.
  * @height: The height of the array.
- * Return : On failure - NULL.
- * Otherwise - A pointer to the array.
+ * Return : On failure - NULL. Otherwise - A pointer to the array.
  */
 int **alloc_grid(int width, int height)
 {
@@ -29,7 +28,7 @@ int **alloc_grid(int width, int height)
 	{
 		twoDim[i] = malloc(sizeof(int) * width);
 
-		if (twoDim[i] == NULL)
+		if (twoDim == NULL)
 		{
 			free(twoDim);
 			return (NULL);
